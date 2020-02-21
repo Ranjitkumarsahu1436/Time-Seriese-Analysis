@@ -12,9 +12,12 @@ ARIMA, short for ‘Auto Regressive Integrated Moving Average’ is actually a c
 
 Any ‘non-seasonal’ time series that exhibits patterns and is not a random white noise can be modeled with ARIMA models.
 
-# AR: Autoregression. A model that uses the dependent relationship between an observation and some number of lagged observations.
-# I: Integrated. The use of differencing of raw observations (e.g. subtracting an observation from an observation at the previous time step) in order to make the time series stationary.
-# MA: Moving Average. A model that uses the dependency between an observation and a residual error from a moving average model applied to lagged observations.
+# AR: 
+Autoregression. A model that uses the dependent relationship between an observation and some number of lagged observations.
+# I: 
+Integrated. The use of differencing of raw observations (e.g. subtracting an observation from an observation at the previous time step) in order to make the time series stationary.
+# MA: 
+Moving Average. A model that uses the dependency between an observation and a residual error from a moving average model applied to lagged observations.
 
 An ARIMA model is characterized by 3 terms: p, d, q
 
